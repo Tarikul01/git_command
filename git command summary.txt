@@ -1,0 +1,52 @@
+1:git init this command use in tha initial time when we start git..
+git clear;
+2:git add . a local file  add a staging area in the git.
+3:git commit . this command send a file staging area to local repository
+4: git push. this command send a file local repository to github or server repositry;
+5: git fetch . this  commad fetch  code in the main reposity to local repository;
+6: git clone/ git pull . this command fetch code in the main repository to computer work directory;
+7: git diff. this command  work to check different  in the work directory and staging area;
+8: git diff HEAD . this command  work to check work directoy and local repository;
+9: git merge. this command use to combind to work directory code and local reposity code;
+
+10: git ckeckout.  this command fetch the code in the local repository to  work directory;
+
+11:  git config --global user.name "Tarikul" this command use to the set of the name  in the repsetory;
+12: git config --global user.email "tarikul.cse5.bu@gmail.com" this command to use the set email in the  repositry;
+13: git config --list this commadn use to check to all list in the git
+
+
+14: git status . use to check in the untracked file;
+15: git add index.html  .  use to staging file from the untracked file;
+16: git add --all/ git add. use to all file staging  from the untracked file;
+17: git commit   this commnd use to  commit the file; then press i button,
+ then show insert . then commit msg. (2 text file added )and press escape then type
+ :x 
+18: git commit -m "index.html". use to direct commit file..
+19: git log   . use to show tha all commit file;
+20:git log --oneline. use to show the all commit file  without discription.
+21: git checkout master     when we switch out in the master branch then use command.
+22: git checkout  number   number = brunch number potita.. repsitory er. jekhan theke amra purber obosthay fire jete pari;
+23: git diff new sierial number and previous serial number.
+24: git diff --staged  use to show  the different.
+25: git rm  index.html. this command use to   permanantly delet a file.. in the working direcotry.
+26: git reset HEAD index.html use this command  because the deleted file in not show in the status command;
+
+
+
+
+27: git clone (then clone code paste) if i clone a folder( then folder er name);
+28: git branch (branchname)    how create a branch;
+   git branch     how check the branch
+29: git  checkout branchname   (this change the master branch to branch name)
+30: git  checkout -b home_branch  (online made a branch and  go the home branch);
+31: git  checkout master  masterbrach e fire asa.. homebranch theke
+ git merge  homebrach    ekhane homebranch er  sob data master branch e nia asa.
+32: git branch -D homebranch         er maddome home branch delete kora hoy;
+
+33: git stash   er maddome akta code onno jaygay save kora jay;
+34: git stash pop er maddome oi lekha dekha jabe;
+35: git stash list er maddome kotogual stash korchi seta dekha jabe;
+36: git clean -f -n er maddome amra.. sob untrack file delet dite pari;
+37:  touch .gitignore eta run kore. akta file k commit kora theke mukto kra jay..
+tar por git ignore file ta. open kore. je file ta. ignore kora lagbe oita.extention likeh dite hobe. ota r commit hobe na.
